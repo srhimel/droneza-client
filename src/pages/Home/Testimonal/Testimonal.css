@@ -1,0 +1,30 @@
+.testimonal{
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: left;
+    animation: Bg-Change  infinite 30s linear alternate-reverse;
+}
+.testimonal-img img{
+    animation: App-logo-spin infinite 1.5s linear alternate-reverse;
+}
+
+
+@keyframes App-logo-spin {
+    from {
+      transform: translateY(-20px);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
+
+
+  
+@keyframes Bg-Change {
+    from {
+        background-position: left;
+    }
+    to {
+        background-position: right;
+    }
+  }
